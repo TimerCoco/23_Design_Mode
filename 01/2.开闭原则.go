@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+类的改动是通过增加代码进行，而不是通过修改源代码
+*/
+
 // AbstractBanker 抽象的银行业务员
 type AbstractBanker interface {
 	DbBusi() //抽象的处理业务接口
